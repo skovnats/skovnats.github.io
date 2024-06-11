@@ -13,14 +13,14 @@
 
 
 <meta property="og:url" content="http://localhost:1313/search/">
-  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:site_name" content="John&#39;s Blog">
   <meta property="og:title" content="Search Results">
   <meta property="og:description" content="This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs and mark.js
 Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [“HTML”, “JSON”] ```">
-  <meta property="og:locale" content="en_us">
+  <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="search">
     <meta property="article:published_time" content="2010-06-08T08:06:25+06:00">
@@ -89,6 +89,8 @@ Initial setup Search depends on additional output content type of JSON in config
 
 
 
+  
+
 
 
 
@@ -103,7 +105,7 @@ Initial setup Search depends on additional output content type of JSON in config
     </button>
     
     <a class="navbar-brand" href="/">
-      My New Hugo Site</a>
+      John&#39;s Blog</a>
     <button
       class="navbar-toggler navbar-light"
       id="navbar-toggler"
@@ -121,8 +123,25 @@ Initial setup Search depends on additional output content type of JSON in config
           <a class="nav-link" href="/#home">Home</a>
         </li>
         
+          
+          
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#about">About</a>
+                </li>
+              
+            
+          
         
         
+          <div id="top-navbar-divider"></div>
+        
+        
+          <li class="nav-item">
+            <a class="nav-link" id="blog-link" href="/posts">Posts</a>
+          </li>
         
         
         
@@ -141,6 +160,8 @@ Initial setup Search depends on additional output content type of JSON in config
       
       
   
+  
+    
   
 
   <section class="sidebar-section" id="sidebar-section">
@@ -222,14 +243,23 @@ Initial setup Search depends on additional output content type of JSON in config
 
   
   
+    
+  
+
+  
+  
+    
+  
 
   
   
 
   
   
-
-  
+    
+    
+      
+    
   
 
 
@@ -259,8 +289,52 @@ Initial setup Search depends on additional output content type of JSON in config
         <div class="col-md-4 col-sm-12">
           <h5>Navigation</h5>
           
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#about">About</a>
+                </li>
+              
+            
+              
+            
+          </ul>
+          
         </div>
         
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+              
+                <li><a href=mailto:johndoe@example.com target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>johndoe@example.com</span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://github.com/johndoe target="_blank" rel="noopener">
+                  <span><i class="fab fa-github"></i></span> <span>johndoe</span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://www.linkedin.com/in/johndoe target="_blank" rel="noopener">
+                  <span><i class="fab fa-linkedin"></i></span> <span>John Doe</span>
+                </a></li>
+              
+            
+              
+                <li><span><i class="fas fa-phone-alt"></i></span> <span>&#43;0123456789</span></li>
+              
+            
+          </ul>
+        </div>
         
         
         
@@ -293,7 +367,7 @@ Initial setup Search depends on additional output content type of JSON in config
             Toha
           </a>
         </div>
-        <div class="col-md-4 text-center">© 2024 Copyright.</div>
+        <div class="col-md-4 text-center">© 2020 Copyright.</div>
         <div class="col-md-4 text-end">
           <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
           <img
@@ -309,7 +383,7 @@ Initial setup Search depends on additional output content type of JSON in config
   </footer>
 
 
-    <script src="/application.9becd156fa5fe450e94e7e1eac41fdb7255dd40cc9d13be1dd44e20e002f5da4.js" integrity="sha256-m&#43;zRVvpf5FDpTn4erEH9tyVd1AzJ0Tvh3UTiDgAvXaQ=" defer></script>
+    <script src="/application.7e4d6b0d3e323b4ea0b4de01f75abf2f891352e1de2ec01f56c0b29e988cb4c9.js" integrity="sha256-fk1rDT4yO06gtN4B91q/L4kTUuHeLsAfVsCynpiMtMk=" defer></script>
 
 
     
