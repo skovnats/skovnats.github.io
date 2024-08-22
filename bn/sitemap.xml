@@ -10,7 +10,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="bn"
+                hreflang="ru"
                 href="http://localhost:1313/bn/notes/go/basic/introduction/"
                 />
   </url><url>
@@ -22,7 +22,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="bn"
+                hreflang="ru"
                 href="http://localhost:1313/bn/notes/go/basic/"
                 />
   </url><url>
@@ -34,7 +34,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="bn"
+                hreflang="ru"
                 href="http://localhost:1313/bn/notes/go/advanced/"
                 />
   </url><url>
@@ -46,7 +46,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="bn"
+                hreflang="ru"
                 href="http://localhost:1313/bn/notes/go/basic/types/"
                 />
   </url><url>
@@ -58,7 +58,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="bn"
+                hreflang="ru"
                 href="http://localhost:1313/bn/notes/go/advanced/files/"
                 />
   </url><url>
@@ -70,7 +70,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="bn"
+                hreflang="ru"
                 href="http://localhost:1313/bn/notes/bash/basic/"
                 />
   </url><url>
@@ -84,7 +84,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="bn"
+                hreflang="ru"
                 href="http://localhost:1313/bn/search/"
                 />
   </url><url>
@@ -98,7 +98,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="bn"
+                hreflang="ru"
                 href="http://localhost:1313/bn/search/"
                 />
   </url><url>
@@ -111,7 +111,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="bn"
+                hreflang="ru"
                 href="http://localhost:1313/bn/categories/"
                 />
   </url><url>
@@ -124,7 +124,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="bn"
+                hreflang="ru"
                 href="http://localhost:1313/bn/posts/markdown-sample/"
                 />
   </url><url>
@@ -137,7 +137,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="bn"
+                hreflang="ru"
                 href="http://localhost:1313/bn/posts/category/sub-category/"
                 />
   </url><url>
@@ -150,7 +150,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="bn"
+                hreflang="ru"
                 href="http://localhost:1313/bn/tags/"
                 />
   </url><url>
@@ -163,12 +163,9 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="bn"
+                hreflang="ru"
                 href="http://localhost:1313/bn/posts/category/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/bn/tags/%E0%A6%95%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F-%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A7%8B/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bn/</loc>
     <lastmod>2020-06-08T08:06:25+06:00</lastmod>
@@ -179,9 +176,12 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="bn"
+                hreflang="ru"
                 href="http://localhost:1313/bn/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/bn/tags/%E0%A6%95%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F-%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A7%8B/</loc>
+    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bn/posts/</loc>
     <lastmod>2020-06-08T08:06:25+06:00</lastmod>
@@ -192,7 +192,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="bn"
+                hreflang="ru"
                 href="http://localhost:1313/bn/posts/"
                 />
   </url><url>
@@ -214,7 +214,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="bn"
+                hreflang="ru"
                 href="http://localhost:1313/bn/posts/introduction/"
                 />
   </url><url>
@@ -230,7 +230,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="bn"
+                hreflang="ru"
                 href="http://localhost:1313/bn/posts/shortcodes/"
                 />
   </url><url>
@@ -243,7 +243,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="bn"
+                hreflang="ru"
                 href="http://localhost:1313/bn/posts/category/sub-category/rich-content/"
                 />
   </url><url>
@@ -256,7 +256,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="bn"
+                hreflang="ru"
                 href="http://localhost:1313/bn/search/"
                 />
   </url><url>
@@ -269,7 +269,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="bn"
+                hreflang="ru"
                 href="http://localhost:1313/bn/notes/"
                 />
   </url><url>
@@ -281,7 +281,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="bn"
+                hreflang="ru"
                 href="http://localhost:1313/bn/notes/go/"
                 />
   </url><url>
@@ -293,7 +293,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="bn"
+                hreflang="ru"
                 href="http://localhost:1313/bn/notes/bash/"
                 />
   </url>

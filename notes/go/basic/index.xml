@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Basics on John&#39;s Blog</title>
+    <title>Basics on Site of Dr. Artiom Kovnatsky</title>
     <link>http://localhost:1313/notes/go/basic/</link>
-    <description>Recent content in Basics on John&#39;s Blog</description>
+    <description>Recent content in Basics on Site of Dr. Artiom Kovnatsky</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="http://localhost:1313/notes/go/basic/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Go বেসিক</title>
+      <link>http://localhost:1313/notes/go/basic/_index.bn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/go/basic/_index.bn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Introduction</title>
       <link>http://localhost:1313/notes/go/basic/introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
