@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Cайт Артёма Ковнацкого</title>
+    <title>Tags on Сайт и блог Артёма Ковнацкого</title>
     <link>http://localhost:1313/ru/tags/</link>
-    <description>Recent content in Tags on Cайт Артёма Ковнацкого</description>
+    <description>Recent content in Tags on Сайт и блог Артёма Ковнацкого</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ru</language><atom:link href="http://localhost:1313/ru/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>ru</language>
+    <lastBuildDate>Tue, 03 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/ru/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

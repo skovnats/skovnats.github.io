@@ -30,8 +30,86 @@
                 href="http://localhost:1313/ru/search/"
                 />
   </url><url>
+    <loc>http://localhost:1313/ru/tags/basic/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/basic/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/tags/basic/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ru/categories/basic/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/categories/basic/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/categories/basic/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ru/categories/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ru/tags/multi-lingual/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/multi-lingual/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/tags/multi-lingual/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ru/posts/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/posts/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ru/tags/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/tags/"
+                />
+  </url><url>
     <loc>http://localhost:1313/ru/</loc>
-    <lastmod>2010-06-08T08:06:25+06:00</lastmod>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -41,6 +119,19 @@
                 rel="alternate"
                 hreflang="ru"
                 href="http://localhost:1313/ru/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ru/posts/phylosophy/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/posts/phylosophy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/posts/phylosophy/"
                 />
   </url><url>
     <loc>http://localhost:1313/ru/notes/</loc>
@@ -67,30 +158,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="http://localhost:1313/ru/search/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ru/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="http://localhost:1313/ru/categories/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ru/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="http://localhost:1313/ru/tags/"
                 />
   </url>
 </urlset>
