@@ -120,7 +120,7 @@
     <priority>0.1</priority>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -138,7 +138,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -156,19 +156,19 @@
                 />
   </url><url>
     <loc>http://localhost:1313/tags/%C3%B3mega/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/%C3%B3mega/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/personal/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/philosophy/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -186,7 +186,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -204,7 +204,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/posts/philosophy/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
