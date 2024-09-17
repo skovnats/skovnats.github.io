@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multi-Lingual on Artiom Kovnatsky: Portfolio &amp; Blog</title>
+    <link>http://localhost:1313/de/tags/multi-lingual/</link>
+    <description>Recent content in Multi-Lingual on Artiom Kovnatsky: Portfolio &amp; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Tue, 03 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/de/tags/multi-lingual/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Философия</title>
+      <link>http://localhost:1313/de/posts/philosophy/</link>
+      <pubDate>Tue, 03 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/de/posts/philosophy/</guid>
+      <description>Greeting! This is an introduction post. This post tests the followings:
+Hero image is in the same directory as the post. This post should be at top of the sidebar. Post author should be the same as specified in author.yaml file. </description>
+    </item>
+    
+    
+  </channel>
+</rss>

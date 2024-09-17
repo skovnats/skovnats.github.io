@@ -24,7 +24,7 @@
   <link rel="icon" type="image/png" href="/images/site/logo_opa_hu627c5377cc4bc83d0d862c6fcdeaa915_453841_42x0_resize_box_3.png" />
 
 <meta property="og:url" content="http://localhost:1313/ru/search/">
-  <meta property="og:site_name" content="Сайт и блог Артёма Ковнацкого">
+  <meta property="og:site_name" content="Артём Ковнацкий: Портфолио &amp; Блог">
   <meta property="og:title" content="Search Results">
   <meta property="og:description" content="This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
@@ -33,7 +33,7 @@ This implementation uses Fusejs and mark.js
 Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [“HTML”, “JSON”] ```">
   <meta property="og:locale" content="ru">
   <meta property="og:type" content="article">
-    <meta property="article:section" content="notes">
+    <meta property="article:section" content="search">
     <meta property="article:published_time" content="2010-06-08T08:06:25+06:00">
     <meta property="article:modified_time" content="2010-06-08T08:06:25+06:00">
 
@@ -91,7 +91,7 @@ Initial setup Search depends on additional output content type of JSON in config
     </script>
   </head>
 
-  <body class="type-notes kind-page" data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="80">
+  <body class="type-search kind-page" data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="80">
     <div class="container-fluid bg-secondary wrapper">
       
       
@@ -160,7 +160,7 @@ Initial setup Search depends on additional output content type of JSON in config
     <a class="navbar-brand" href="/ru">
       
         <img src="/images/site/logo_opa_hu627c5377cc4bc83d0d862c6fcdeaa915_453841_42x0_resize_box_3.png" id="logo" alt="Logo">
-      Сайт и блог Артёма Ковнацкого</a>
+      Артём Ковнацкий: Портфолио &amp; Блог</a>
     <button
       class="navbar-toggler navbar-light"
       id="navbar-toggler"
@@ -189,6 +189,7 @@ Initial setup Search depends on additional output content type of JSON in config
               
             
             
+            
               
               
                 <li class="nav-item">
@@ -207,18 +208,6 @@ Initial setup Search depends on additional output content type of JSON in config
             
               
               
-                <li class="nav-item">
-                  <a class="nav-link" href="/ru#education">Education</a>
-                </li>
-              
-            
-            
-              
-              
-                <li class="nav-item">
-                  <a class="nav-link" href="/ru#projects">Projects</a>
-                </li>
-              
             
             
               
@@ -229,16 +218,10 @@ Initial setup Search depends on additional output content type of JSON in config
               
             
             
-              
-              
-            
             
               
               
             
-            
-              
-              
             
           
           <li class="nav-item dropdown">
@@ -251,9 +234,6 @@ Initial setup Search depends on additional output content type of JSON in config
                     
                   
                   
-                    
-                    
-                  
                   
                     
                     
@@ -265,23 +245,7 @@ Initial setup Search depends on additional output content type of JSON in config
                   
                     
                     
-                  
-                  
-                    
-                    
-                      <a class="dropdown-item" href="/ru#publications">Publications</a>
-                    
-                  
-                  
-                    
-                    
-                      <a class="dropdown-item" href="/ru#featured-posts">Featured Posts</a>
-                    
-                  
-                  
-                    
-                    
-                      <a class="dropdown-item" href="/ru#recent-posts">Recent Posts</a>
+                      <a class="dropdown-item" href="/ru#education">Education</a>
                     
                   
                   
@@ -293,8 +257,16 @@ Initial setup Search depends on additional output content type of JSON in config
                   
                     
                     
+                      <a class="dropdown-item" href="/ru#projects">Projects</a>
+                    
+                  
+                  
+                  
+                    
+                    
                       <a class="dropdown-item" href="/ru#achievements">Achievements</a>
                     
+                  
                   
               </div>
             </li>
@@ -309,14 +281,10 @@ Initial setup Search depends on additional output content type of JSON in config
           </li>
         
         
-          <li class="nav-item">
-            <a class="nav-link" id="note-link" href="/ru/notes">Ноты</a>
-          </li>
-        
         
             
               <li class="nav-item">
-                <a class="nav-link" href="https://toha-guides.netlify.app/posts/">Docs</a>
+                <a class="nav-link" href="http://localhost:1313/posts/philosophy/">Φ</a>
               </li>
             
         
@@ -335,20 +303,28 @@ Initial setup Search depends on additional output content type of JSON in config
     </a>
     <div class="dropdown-menu" aria-labelledby="languageSelector">
         
-        <a class="dropdown-item nav-link languages-item" href="/search">
-            
-                
-                <span class="flag-icon flag-icon-gb"></span>
-            
-            English
-        </a>
-        
         <a class="dropdown-item nav-link languages-item" href="/ru/search">
             
                 
                 <span class="flag-icon flag-icon-ru"></span>
             
             Русский
+        </a>
+        
+        <a class="dropdown-item nav-link languages-item" href="/de/search">
+            
+                
+                <span class="flag-icon flag-icon-de"></span>
+            
+            Deutsch
+        </a>
+        
+        <a class="dropdown-item nav-link languages-item" href="/search">
+            
+                
+                <span class="flag-icon flag-icon-gb"></span>
+            
+            English
         </a>
         
     </div>
@@ -404,9 +380,52 @@ Initial setup Search depends on additional output content type of JSON in config
         </form>
         <div class="sidebar-tree">
           <ul class="tree" id="tree">
-            <li id="list-heading"><a href="/ru/notes" data-filter="all">Ноты</a></li>
+            <li id="list-heading"><a href="/ru/search" data-filter="all">Поиск</a></li>
             <div class="subtree">
                 
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/ru/posts/philosophy/" title="Философия">Философия</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="/ru/posts/%CF%89/"> Ω</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/ru/posts/%CF%89/omega-video/" title="Видео презентации">Видео презентации</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/ru/posts/%CF%89/metaphoric-bio/" title="Метафорисеская автобиография">Метафорисеская автобиография</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
 
             </div>
           </ul>
@@ -418,43 +437,44 @@ Initial setup Search depends on additional output content type of JSON in config
 
       
       
+<script>
+  document.body.classList.replace('kind-page', 'kind-section');
+</script>
 <section class="content-section" id="content-section">
   <div class="content container-fluid" id="content">
-    <div class="container-fluid note-card-holder" id="note-card-holder">
-      <p>This file exists solely to respond to /search URL with the related <code>search</code> layout template.</p>
-<p>No content shown here is rendered, all content is based in the template layouts/page/search.html</p>
-<p>Setting a very low sitemap priority will tell search engines this is not important content.</p>
-<p>This implementation uses Fusejs and mark.js</p>
-<h2 id="initial-setup">Initial setup</h2>
-<p>Search  depends on additional output content type of JSON in config.toml
-```
-[outputs]
-home = [&ldquo;HTML&rdquo;, &ldquo;JSON&rdquo;]
-```</p>
-<h2 id="searching-additional-fields">Searching additional fields</h2>
-<p>To search additional fields defined in front matter, you must add it in 2 places.</p>
-<h3 id="edit-layouts_defaultindexjson">Edit layouts/_default/index.JSON</h3>
-<p>This exposes the values in /index.json
-i.e. add <code>category</code>
-```
-&hellip;
-&ldquo;contents&rdquo;:{{ .Content | plainify | jsonify }}
-{{ if .Params.tags }},
-&ldquo;tags&rdquo;:{{ .Params.tags | jsonify }}{{end}},
-&ldquo;categories&rdquo; : {{ .Params.categories | jsonify }},
-&hellip;
-```</p>
-<h3 id="edit-fusejs-options-to-search">Edit fuse.js options to Search</h3>
-<p><code>assets/scripts/pages/search.js</code>
-```
-keys: [
-&ldquo;title&rdquo;,
-&ldquo;contents&rdquo;,
-&ldquo;tags&rdquo;,
-&ldquo;categories&rdquo;
-]
-```</p>
+    <div class="container-fluid post-card-holder" id="post-card-holder">
+      <div id="search-results" style="display: flex; flex-wrap: wrap;">
 
+        <script id="search-result-template" type="text/x-js-template">
+          <div class="post-card">
+              <div class="card">
+                <div class="card-head">
+                  <a href="${link}" class="post-card-link">
+                  <img class="card-img-top" src="${hero}" alt="Card Heading Image">
+                  </a>
+                </div>
+                <div class="card-body">
+                  <a href="${link}" class="post-card-link">
+                    <h5 class="card-title">${title}</h5>
+                    <p class="card-text post-summary">${summary}</p>
+                  </a>
+                  
+                  <div class="tags">
+                    <ul style="padding-left: 0;">
+                    ${tags}
+                    </ul>
+                  </div>
+                  
+                </div>
+                <div class="card-footer">
+                  <span class="float-start">${date}</span>
+                  <a href="${link}" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+              </div>
+          </div>
+        </script>
+
+      </div>
     </div>
   </div>
 </section>
@@ -497,8 +517,6 @@ keys: [
   
     
     
-      
-    
   
 
 
@@ -527,134 +545,25 @@ keys: [
     <div class="container pt-5">
       <div class="row text-start">
         
-        <div class="col-md-4 col-sm-12">
-          <h5>Навигация</h5>
-          
-          <ul>
-              
-                
-                
-                  
-                
-                <li class="nav-item">
-                  <a class="smooth-scroll" href="http://localhost:1313/ru/#about">About</a>
-                </li>
-              
-              
-                
-                
-                  
-                
-                <li class="nav-item">
-                  <a class="smooth-scroll" href="http://localhost:1313/ru/#skills">Skills</a>
-                </li>
-              
-              
-                
-                
-                  
-                
-                <li class="nav-item">
-                  <a class="smooth-scroll" href="http://localhost:1313/ru/#experiences">Experiences</a>
-                </li>
-              
-              
-                
-                
-                  
-                
-                <li class="nav-item">
-                  <a class="smooth-scroll" href="http://localhost:1313/ru/#education">Education</a>
-                </li>
-              
-              
-                
-                
-                  
-                
-                <li class="nav-item">
-                  <a class="smooth-scroll" href="http://localhost:1313/ru/#projects">Projects</a>
-                </li>
-              
-              
-                
-                
-                  
-                
-                <li class="nav-item">
-                  <a class="smooth-scroll" href="http://localhost:1313/ru/#publications">Publications</a>
-                </li>
-              
-              
-                
-                
-                  
-                
-                <li class="nav-item">
-                  <a class="smooth-scroll" href="http://localhost:1313/ru/#featured-posts">Featured Posts</a>
-                </li>
-              
-              
-                
-                
-                  
-                
-                <li class="nav-item">
-                  <a class="smooth-scroll" href="http://localhost:1313/ru/#recent-posts">Recent Posts</a>
-                </li>
-              
-              
-                
-                
-                  
-                
-                <li class="nav-item">
-                  <a class="smooth-scroll" href="http://localhost:1313/ru/#accomplishments">Accomplishments</a>
-                </li>
-              
-              
-                
-                
-                  
-                
-                <li class="nav-item">
-                  <a class="smooth-scroll" href="http://localhost:1313/ru/#achievements">Achievements</a>
-                </li>
-              
-            
-              
-                
-              
-            
-          </ul>
-          
-        </div>
-        
         
         <div class="col-md-4 col-sm-12">
           <h5>Контакты:</h5>
           <ul>
             
               
-                <li><a href=mailto:artiom.kovnatsky@gmail.com target="_blank" rel="noopener">
-                  <span><i class="fas fa-envelope"></i></span> <span>artiom.kovnatsky@gmail.com</span>
-                </a></li>
-              
-            
-              
-                <li><a href=https://github.com/skovnats target="_blank" rel="noopener">
-                  <span><i class="fab fa-github"></i></span> <span>skovnats</span>
+                <li><a href=mailto:artiomkovnatsky@pm.me target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>artiomkovnatsky@pm.me</span>
                 </a></li>
               
             
               
                 <li><a href=https://www.linkedin.com/in/artiomkovnatsky target="_blank" rel="noopener">
-                  <span><i class="fab fa-linkedin"></i></span> <span>Dr. Artiom Kovnatsky</span>
+                  <span><i class="fab fa-linkedin"></i></span> <span>Artiom Kovnatsky</span>
                 </a></li>
               
             
               
-                <li><span><i class="fas fa-phone-alt"></i></span> <span>&#43;972 547609790</span></li>
+                <li><span><i class="fas fa-phone-alt"></i></span> <span>&#43;4917 630162834</span></li>
               
             
           </ul>
@@ -695,33 +604,16 @@ keys: [
       </div>
     </div>
     
-    
     <hr />
     <div class="container">
-      <div class="row text-start">
-        <div class="col-md-4">
-          <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
-            <img src="/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png" alt="Toha Theme Logo">
-            Toha
-          </a>
-        </div>
-        <div class="col-md-4 text-center">© 2020 Copyright.</div>
-        <div class="col-md-4 text-end">
-          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Создано при помощи
-          <img
-            src="/images/hugo-logo.svg"
-            alt="Hugo Logo"
-            height="18"
-          />
-          </a>
-        </div>
-      </div>
+      <p id="disclaimer"><strong>Уведомление об ответственности:</strong> All views are of my own.<br>❕I’d appreciate your help: if you know someone who could benefit from my skills, please contact us.</p>
     </div>
+    
     
   </footer>
 
 
-    <script src="/application.2badb38d6faeeac2b41efbc3bda2430d37fe71635f21bc1b1fcc791c2066ebef.js" integrity="sha256-K62zjW&#43;u6sK0HvvDvaJDDTf&#43;cWNfIbwbH8x5HCBm6&#43;8=" defer></script>
+    <script src="/application.606afbf487d22677eb00bbc97651e4afd37b8710e7cd4b36a3afc9e601d56b53.js" integrity="sha256-YGr79IfSJnfrALvJdlHkr9N7hxDnzUs2o6/J5gHVa1M=" defer></script>
 
 
     

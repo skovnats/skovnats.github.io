@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Basic on Сайт и блог Артёма Ковнацкого</title>
+    <title>Basic on Артём Ковнацкий: Портфолио &amp; Блог</title>
     <link>http://localhost:1313/ru/tags/basic/</link>
-    <description>Recent content in Basic on Сайт и блог Артёма Ковнацкого</description>
+    <description>Recent content in Basic on Артём Ковнацкий: Портфолио &amp; Блог</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <lastBuildDate>Tue, 03 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/ru/tags/basic/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Философия</title>
-      <link>http://localhost:1313/ru/posts/phylosophy/</link>
+      <link>http://localhost:1313/ru/posts/philosophy/</link>
       <pubDate>Tue, 03 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ru/posts/phylosophy/</guid>
+      <guid>http://localhost:1313/ru/posts/philosophy/</guid>
       <description>Greeting! This is an introduction post. This post tests the followings:
 Hero image is in the same directory as the post. This post should be at top of the sidebar. Post author should be the same as specified in author.yaml file. </description>
     </item>

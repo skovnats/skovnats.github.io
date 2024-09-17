@@ -91,10 +91,6 @@
     <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
-  </url><url>
-    <loc>http://localhost:1313/search/</loc>
-    <lastmod>2010-06-08T08:06:25+06:00</lastmod>
-    <priority>0.1</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -102,13 +98,14 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/search/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/search/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/search/</loc>
-    <lastmod>2010-06-08T08:06:25+06:00</lastmod>
-    <priority>0.1</priority>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
@@ -131,34 +128,13 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/tags/basic/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="http://localhost:1313/ru/tags/basic/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/basic/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/categories/basic/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="http://localhost:1313/ru/categories/basic/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/categories/basic/"
                 />
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
@@ -170,44 +146,26 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/content-organization/</loc>
+    <loc>http://localhost:1313/tags/%C3%B3mega/</loc>
     <lastmod>2020-06-08T08:06:25+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/markdown/</loc>
+    <loc>http://localhost:1313/categories/%C3%B3mega/</loc>
     <lastmod>2020-06-08T08:06:25+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/markdown-sample/</loc>
+    <loc>http://localhost:1313/categories/personal/</loc>
     <lastmod>2020-06-08T08:06:25+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/multi-lingual/</loc>
+    <loc>http://localhost:1313/tags/philosophy/</loc>
     <lastmod>2020-06-08T08:06:25+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="http://localhost:1313/ru/tags/multi-lingual/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/multi-lingual/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/posts/phylosophy/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="http://localhost:1313/ru/posts/phylosophy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/posts/phylosophy/"
-                />
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2020-06-08T08:06:25+06:00</lastmod>
@@ -218,18 +176,14 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/posts/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/posts/%CF%89/sub-category/rich-content/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/shortcodes/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/%CF%89/sub-category/</loc>
-    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2020-06-08T08:06:25+06:00</lastmod>
@@ -240,12 +194,32 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/%CF%89/</loc>
+    <loc>http://localhost:1313/posts/philosophy/</loc>
     <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/posts/philosophy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/posts/philosophy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/posts/philosophy/"
+                />
   </url><url>
     <loc>http://localhost:1313/notes/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
@@ -253,6 +227,11 @@
                 rel="alternate"
                 hreflang="ru"
                 href="http://localhost:1313/ru/notes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/notes/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -269,8 +248,49 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/search/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/search/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/posts/--markdown-sample/--index/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/posts/--markdown-sample/--index/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/posts/--markdown-sample/--index/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/posts/--shortcodes/--index/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/posts/--shortcodes/--index/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/posts/--shortcodes/--index/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/posts/%CF%89/omega-video/rich-content/--index/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/posts/%CF%89/omega-video/rich-content/--index/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/posts/%CF%89/omega-video/rich-content/--index/"
                 />
   </url><url>
     <loc>http://localhost:1313/notes/bash/</loc>
@@ -278,6 +298,23 @@
     <loc>http://localhost:1313/notes/go/</loc>
   </url><url>
     <loc>http://localhost:1313/notes/go/_index.bn/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/%CF%89/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/posts/%CF%89/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/posts/%CF%89/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/posts/%CF%89/"
+                />
   </url><url>
     <loc>http://localhost:1313/search/</loc>
     <priority>0.1</priority>
@@ -288,15 +325,26 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/search/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/search/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/%CF%89/sub-category/_index.bn/</loc>
-  </url><url>
-    <loc>http://localhost:1313/posts/%CF%89/_index.bn/</loc>
-  </url><url>
-    <loc>http://localhost:1313/notes/_index.bn/</loc>
+    <loc>http://localhost:1313/posts/%CF%89/omega-video/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/posts/%CF%89/omega-video/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/posts/%CF%89/omega-video/"
+                />
   </url><url>
     <loc>http://localhost:1313/notes/bash/_index.bn/</loc>
   </url>
