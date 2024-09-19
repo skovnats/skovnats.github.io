@@ -41,7 +41,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/de/</loc>
-    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -58,34 +58,8 @@
                 href="http://localhost:1313/de/"
                 />
   </url><url>
-    <loc>http://localhost:1313/de/tags/basic/</loc>
-    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="http://localhost:1313/ru/tags/basic/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/tags/basic/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/categories/basic/</loc>
-    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="http://localhost:1313/ru/categories/basic/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/categories/basic/"
-                />
-  </url><url>
     <loc>http://localhost:1313/de/categories/</loc>
-    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -102,21 +76,80 @@
                 href="http://localhost:1313/de/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/de/tags/multi-lingual/</loc>
-    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/de/tags/%C3%B3mega/</loc>
+    <lastmod>2024-09-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="http://localhost:1313/ru/tags/multi-lingual/"
+                href="http://localhost:1313/ru/tags/%C3%B3mega/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/%C3%B3mega/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/de/tags/multi-lingual/"
+                href="http://localhost:1313/de/tags/%C3%B3mega/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/de/categories/%C3%B3mega/</loc>
+    <lastmod>2024-09-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/categories/%C3%B3mega/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/categories/%C3%B3mega/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/categories/%C3%B3mega/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/de/categories/personal/</loc>
+    <lastmod>2024-09-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/categories/personal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/categories/personal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/categories/personal/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/de/tags/philosophy/</loc>
+    <lastmod>2024-09-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/tags/philosophy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/philosophy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/tags/philosophy/"
                 />
   </url><url>
     <loc>http://localhost:1313/de/posts/</loc>
-    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -134,7 +167,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/de/tags/</loc>
-    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -152,7 +185,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/de/posts/philosophy/</loc>
-    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
