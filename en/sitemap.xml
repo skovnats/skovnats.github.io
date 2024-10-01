@@ -353,48 +353,48 @@
                 href="http://localhost:1313/posts/philosophy/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/%CF%89/meta-bio/</loc>
+    <loc>http://localhost:1313/posts/omega/meta-bio/</loc>
     <lastmod>2024-05-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="http://localhost:1313/ru/posts/%CF%89/meta-bio/"
+                href="http://localhost:1313/ru/posts/omega/meta-bio/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/de/posts/%CF%89/meta-bio/"
+                href="http://localhost:1313/de/posts/omega/meta-bio/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/posts/%CF%89/meta-bio/"
+                href="http://localhost:1313/posts/omega/meta-bio/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/%CF%89/lodka/</loc>
+    <loc>http://localhost:1313/posts/omega/lodka/</loc>
     <lastmod>2024-05-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="http://localhost:1313/ru/posts/%CF%89/lodka/"
+                href="http://localhost:1313/ru/posts/omega/lodka/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/posts/%CF%89/lodka/"
+                href="http://localhost:1313/posts/omega/lodka/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/%CF%89/opa/</loc>
+    <loc>http://localhost:1313/posts/omega/opa/</loc>
     <lastmod>2024-05-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="http://localhost:1313/ru/posts/%CF%89/opa/"
+                href="http://localhost:1313/ru/posts/omega/opa/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/posts/%CF%89/opa/"
+                href="http://localhost:1313/posts/omega/opa/"
                 />
   </url><url>
     <loc>http://localhost:1313/tags/personal/</loc>
@@ -415,17 +415,17 @@
                 href="http://localhost:1313/tags/personal/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/%CF%89/</loc>
+    <loc>http://localhost:1313/posts/omega/</loc>
     <lastmod>2024-05-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="http://localhost:1313/ru/posts/%CF%89/"
+                href="http://localhost:1313/ru/posts/omega/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/posts/%CF%89/"
+                href="http://localhost:1313/posts/omega/"
                 />
   </url><url>
     <loc>http://localhost:1313/notes/</loc>
@@ -488,21 +488,21 @@
                 href="http://localhost:1313/search/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/%CF%89/omega-video/</loc>
+    <loc>http://localhost:1313/posts/omega/omega-video/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="http://localhost:1313/ru/posts/%CF%89/omega-video/"
+                href="http://localhost:1313/ru/posts/omega/omega-video/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/de/posts/%CF%89/omega-video/"
+                href="http://localhost:1313/de/posts/omega/omega-video/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/posts/%CF%89/omega-video/"
+                href="http://localhost:1313/posts/omega/omega-video/"
                 />
   </url><url>
     <loc>http://localhost:1313/notes/bash/_index.bn/</loc>
