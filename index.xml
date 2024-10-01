@@ -6,7 +6,17 @@
     <description>Recent content on Artiom Kovnatsky: Portfolio &amp; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Thu, 26 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Services</title>
+      <link>http://localhost:1313/posts/services/</link>
+      <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/services/</guid>
+      <description>Data Specialist You want to monetize your data and need a way to “activate” it
+Details The company had customer interaction data, but it wasn’t clear how to use it. I developed a recommendation algorithm that, based on the limited data left by the customer, allowed us to make an initial assessment of the likelihood of the person becoming a customer. This allowed more efficient use of the limited resources of the sales department, focusing on those most likely to benefit from interaction with the company.</description>
+    </item>
+    
+    <item>
       <title>Φιλοσοφία | Philosophy | Философия</title>
       <link>http://localhost:1313/posts/philosophy/</link>
       <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
@@ -14,6 +24,35 @@
       <guid>http://localhost:1313/posts/philosophy/</guid>
       <description>Leave everything, at the very least, no worse than it was before you. I follow this principle in both big life decisions and everyday matters, from major life choices to something as simple as using a restroom at a conference.
 Оставляй всё, как минимум, не хуже, чем было до тебя. Я придерживаюсь этого принципа как в глобальных вопросах, так и в повседневных делах: от важных жизненных решений до посещения туалетной кабинки на конференции.</description>
+    </item>
+    
+    <item>
+      <title>#0: Metaphorical Autobiography or The Bunker Stories of the Professor</title>
+      <link>http://localhost:1313/posts/%CF%89/meta-bio/</link>
+      <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/%CF%89/meta-bio/</guid>
+      <description>Fig. 1 The Metaphorical Professor&#39;s Dwelling Truth, expressed in form (e.g., written, spoken...), ceases to be truth, including what I am writing... exceptions are usually metaphors, parables, tales, proverbs... music. After reading this, the reader will have an understanding of:
+who they are dealing with where I came from what my values are where I am going if we are on the same path and for how long, if yes Ω.</description>
+    </item>
+    
+    <item>
+      <title>#1: The Boat, Kandinsky 7.0, and ChatGPT 42.0 or Value-Meaning Journeys</title>
+      <link>http://localhost:1313/posts/%CF%89/lodka/</link>
+      <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/%CF%89/lodka/</guid>
+      <description>Truth, when expressed in form (for example, written, spoken..), ceases to be such, including what I am writing... exceptions usually include metaphors, parables, fairy tales, proverbs... music By reading this training-article, the reader:
+will do mental gymnastics, which may increase awareness and, consequently, bring more freedom into their thinking and, as a result, into their life periodically, it seems, the training-article is worth rereading, making notes, trying to understand the meanings expressed and the connections between them &amp;hellip;will also have an understanding:</description>
+    </item>
+    
+    <item>
+      <title>#7: The Image of the Future or Andrey&#39;s Journey with Baba Yaga&#39;s Magic Ball of Thread</title>
+      <link>http://localhost:1313/posts/%CF%89/opa/</link>
+      <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/%CF%89/opa/</guid>
+      <description>Fig. 0 Imagine your image of the future. Ω symbolizes the end/final point; Ω is Omega, the last letter of the Greek alphabet. Questions: what &amp;ldquo;colors&amp;rdquo; can be used to paint the future why &amp;ldquo;&amp;hellip;isms&amp;rdquo; are not a solution why hypotheses, and not &amp;ldquo;I know&amp;rdquo; From the author Earlier, the main question was raised: why and how do we interact with each other? Here, I will &amp;ldquo;paint&amp;rdquo; a possible image of the future with &amp;ldquo;colors.</description>
     </item>
     
     
@@ -105,39 +144,6 @@ var u uint = 7 // uint (unsigned) var p float32 = 22.7 // 32-bit float Arrays //
       
       <guid>http://localhost:1313/notes/bash/basic/</guid>
       <description> Variable NAME=&amp;#34;John&amp;#34; echo $NAME echo &amp;#34;$NAME&amp;#34; echo &amp;#34;${NAME} Condition if [[ -z &amp;#34;$string&amp;#34; ]]; then echo &amp;#34;String is empty&amp;#34; elif [[ -n &amp;#34;$string&amp;#34; ]]; then echo &amp;#34;String is not empty&amp;#34; fi </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/posts/--markdown-sample/--index/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/--markdown-sample/--index/</guid>
-      <description>This is a sample post intended to test the followings:
-A different post author. Table of contents. Markdown content rendering. Math rendering. Emoji rendering. Markdown Syntax Rendering Headings The following HTML &amp;lt;h1&amp;gt;—&amp;lt;h6&amp;gt; elements represent six levels of section headings. &amp;lt;h1&amp;gt; is the highest section level while &amp;lt;h6&amp;gt; is the lowest.
-H1 H2 H3 H4 H5 H6 Paragraph Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/posts/--shortcodes/--index/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/--shortcodes/--index/</guid>
-      <description>This is a sample post intended to test the followings:
-Default hero image. Different shortcodes. Alert The following alerts are available in this theme.
-This is sample alert with type=&amp;quot;success&amp;quot;. This is sample alert with type=&amp;quot;danger&amp;quot;. This is sample alert with type=&amp;quot;warning&amp;quot;. This is sample alert with type=&amp;quot;info&amp;quot;. This is sample alert with type=&amp;quot;dark&amp;quot;. This is sample alert with type=&amp;quot;primary&amp;quot;. This is sample alert with type=&amp;quot;secondary&amp;quot;. Image A sample image without any attribute.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/posts/%CF%89/omega-video/rich-content/--index/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/%CF%89/omega-video/rich-content/--index/</guid>
-      <description> This sample post tests the followings:
-Category, sub-category nesting in the sidebar. Hero image and other images are in images folder inside this post directory. Different media rendering like image, tweet, YouTube video, Vimeo video etc. Image Sample Tweet Sample Owl bet you&amp;#39;ll lose this staring contest 🦉 pic.twitter.com/eJh4f2zncC
-&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) October 26, 2021 YouTube Video Sample Vimeo Video Sample </description>
     </item>
     
     <item>
