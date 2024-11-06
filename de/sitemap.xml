@@ -346,6 +346,23 @@
                 href="http://localhost:1313/de/search/"
                 />
   </url><url>
+    <loc>http://localhost:1313/de/posts/beyond_obvious/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/posts/beyond_obvious/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/posts/beyond_obvious/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/posts/beyond_obvious/"
+                />
+  </url><url>
     <loc>http://localhost:1313/de/posts/omega/omega-video/</loc>
     <xhtml:link
                 rel="alternate"

@@ -40,8 +40,47 @@
                 href="http://localhost:1313/ru/search/"
                 />
   </url><url>
+    <loc>http://localhost:1313/ru/posts/beyond_obvious/intro/</loc>
+    <lastmod>2024-10-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/posts/beyond_obvious/intro/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/posts/beyond_obvious/intro/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ru/posts/beyond_obvious/dynamic_system/</loc>
+    <lastmod>2024-10-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/posts/beyond_obvious/dynamic_system/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/posts/beyond_obvious/dynamic_system/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ru/tags/beyondobvious/</loc>
+    <lastmod>2024-10-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/beyondobvious/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/tags/beyondobvious/"
+                />
+  </url><url>
     <loc>http://localhost:1313/ru/categories/</loc>
-    <lastmod>2024-09-26T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -59,7 +98,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/ru/tags/opa/</loc>
-    <lastmod>2024-09-26T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -74,6 +113,96 @@
                 rel="alternate"
                 hreflang="ru"
                 href="http://localhost:1313/ru/tags/opa/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ru/posts/</loc>
+    <lastmod>2024-10-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/posts/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ru/categories/professional/</loc>
+    <lastmod>2024-10-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/categories/professional/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/categories/professional/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/categories/professional/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ru/tags/</loc>
+    <lastmod>2024-10-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ru/</loc>
+    <lastmod>2024-10-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ru/posts/beyond_obvious/</loc>
+    <lastmod>2024-10-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/posts/beyond_obvious/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/posts/beyond_obvious/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/posts/beyond_obvious/"
                 />
   </url><url>
     <loc>http://localhost:1313/ru/categories/personal/</loc>
@@ -94,42 +223,6 @@
                 href="http://localhost:1313/ru/categories/personal/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ru/posts/</loc>
-    <lastmod>2024-09-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="http://localhost:1313/ru/posts/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ru/categories/professional/</loc>
-    <lastmod>2024-09-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/categories/professional/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/categories/professional/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="http://localhost:1313/ru/categories/professional/"
-                />
-  </url><url>
     <loc>http://localhost:1313/ru/tags/services/</loc>
     <lastmod>2024-09-26T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -146,42 +239,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="http://localhost:1313/ru/tags/services/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ru/tags/</loc>
-    <lastmod>2024-09-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="http://localhost:1313/ru/tags/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ru/</loc>
-    <lastmod>2024-09-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="http://localhost:1313/ru/"
                 />
   </url><url>
     <loc>http://localhost:1313/ru/posts/services/</loc>
