@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Services on Artiom Kovnatsky: Portfolio &amp; Blog</title>
+    <link>http://localhost:1313/tags/services/</link>
+    <description>Recent content in Services on Artiom Kovnatsky: Portfolio &amp; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 26 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/services/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Services</title>
+      <link>http://localhost:1313/posts/services/</link>
+      <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/services/</guid>
+      <description>&lt;div class=&#34;row&#34;&gt;
+    
+       &lt;div class=&#34;col col-sm-12 col-lg-6&#34;&gt;
+            &lt;h4 id=&#34;data-specialist&#34;&gt;Data Specialist&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;b&gt;You want to monetize your data and need a way to “activate” it&lt;/b&gt;&lt;br&gt;
+&lt;details&gt;
+  &lt;summary&gt;Details&lt;/summary&gt;
+The company had customer interaction data, but it wasn’t clear how to use it. I developed a recommendation algorithm that, based on the limited data left by the customer, allowed us to make an initial assessment of the likelihood of the person becoming a customer. This allowed more efficient use of the limited resources of the sales department, focusing on those most likely to benefit from interaction with the company. 
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;You are considering a pivot and are looking for promising options and strategies you may have overlooked&lt;/b&gt;&lt;br&gt;
+&lt;details&gt;
+  &lt;summary&gt;Details&lt;/summary&gt;
+The startup suddenly lost its main client, &lt;a href=https://www.immobilienscout24.de/&gt;ImmoScout24 GmbH&lt;/a&gt;, which on the same day launched a similar product on its website, &lt;a href=https://www.immobilienscout24.de/immobilienmakler&gt;immobilienmakler&lt;/a&gt;. As the largest player in the real estate market in Germany and a de facto monopoly, it became clear that the company was doomed unless it quickly changed its business model: the cost of acquiring customers had skyrocketed, the main client left, and that client became the main competitor on its own platform.
+&lt;p&gt;The company founders asked all employees for ideas on how to save the business and ensure its survival at this critical moment. We entered the “make it or break it” phase.&lt;/p&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>
