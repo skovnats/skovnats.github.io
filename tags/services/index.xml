@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Services on Artiom Kovnatsky: Portfolio &amp; Blog</title>
+    <link>http://localhost:1313/tags/services/</link>
+    <description>Recent content in Services on Artiom Kovnatsky: Portfolio &amp; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 26 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/services/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Services</title>
+      <link>http://localhost:1313/posts/services/</link>
+      <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/services/</guid>
+      <description>Data Specialist You want to monetize your data and need a way to “activate” it
+Details The company had customer interaction data, but it wasn’t clear how to use it. I developed a recommendation algorithm that, based on the limited data left by the customer, allowed us to make an initial assessment of the likelihood of the person becoming a customer. This allowed more efficient use of the limited resources of the sales department, focusing on those most likely to benefit from interaction with the company.</description>
+    </item>
+    
+    
+  </channel>
+</rss>
