@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>#6 Verschwörungstheorien und Mathematik</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<link rel="stylesheet" href="/application.55b3d1a1f5d47572505f2c905556c67b50f9aa7de53e842cf0d0d3c515c7fcaf.css" integrity="sha256-VbPRofXUdXJQXyyQVVbGe1D5qn3lPoQs8NDTxRXH/K8=" />
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/site/logo_opa_hu627c5377cc4bc83d0d862c6fcdeaa915_453841_42x0_resize_box_3.png" />
+
+<meta property="og:url" content="http://localhost:1313/de/posts/beyond_obvious/ai_dialogue_6/">
+  <meta property="og:site_name" content="Artiom Kovnatsky: Portfolio &amp; Blog">
+  <meta property="og:title" content="#6 Verschwörungstheorien und Mathematik">
+  <meta property="og:description" content="[WIP] | [In Bearbeitung] { 🛡️ Wie man sich gegen den Vorwurf der Verbreitung von „Verschwörungstheorien/Conspiracy“ und „Desinformation“ schützt: Anhand zweier gängiger „Verschwörungs“-Themen zeige ich, wie man mathematische Modelle aufbaut und so Vorwürfe neutralisiert, indem man alles in die Sachebene verschiebt: „Hier ist mein mathematisches Modell; wie jedes Modell beruht es auf Annahmen — was genau stimmt hier nicht? Wie würdest du es verbessern? Welche Annahmen würdest du ändern und/oder justieren?">
+  <meta property="og:locale" content="de">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-05-18T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-05-18T00:00:00+00:00">
+    <meta property="article:tag" content="Opa">
+    <meta property="article:tag" content="BeyondObvious">
+    <meta property="article:tag" content="AI-Dialogue">
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="#6 Verschwörungstheorien und Mathematik">
+  <meta name="twitter:description" content="[WIP] | [In Bearbeitung] { 🛡️ Wie man sich gegen den Vorwurf der Verbreitung von „Verschwörungstheorien/Conspiracy“ und „Desinformation“ schützt: Anhand zweier gängiger „Verschwörungs“-Themen zeige ich, wie man mathematische Modelle aufbaut und so Vorwürfe neutralisiert, indem man alles in die Sachebene verschiebt: „Hier ist mein mathematisches Modell; wie jedes Modell beruht es auf Annahmen — was genau stimmt hier nicht? Wie würdest du es verbessern? Welche Annahmen würdest du ändern und/oder justieren?">
+
+    
+    
+<meta name="description" content="#6 Verschwörungstheorien und Mathematik" />
+
+
+    
+
+    
+        
+            
+            
+
+            
+            
+
+            
+            
+                
+                    <script data-goatcounter="https://artiomkovnatsky.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+                    
+            
+
+            
+            
+
+            
+
+            
+        
+    
+
+
+
+
+<script>
+      theme = localStorage.getItem('darkmode:color-scheme') || 'system';
+      if (theme == 'system') {
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          theme = 'dark';
+        } else {
+          theme = 'light';
+        }
+      }
+      document.documentElement.setAttribute('data-theme', theme);
+    </script>
+  </head>
+
+  <body class="type-posts kind-page" data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="80">
+    <div class="container-fluid bg-secondary wrapper">
+      
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+<nav class="navbar navbar-expand-xl top-navbar shadow " id="top-navbar">
+  <div class="container">
+    
+    <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
+      <i data-feather="sidebar"></i>
+    </button>
+    
+    <a class="navbar-brand" href="/de">
+      
+        <img src="/images/site/logo_opa_hu627c5377cc4bc83d0d862c6fcdeaa915_453841_42x0_resize_box_3.png" id="logo" alt="Logo">
+      Title</a>
+    <button
+      class="navbar-toggler navbar-light"
+      id="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#top-nav-items"
+      aria-label="menu"
+    >
+      <i data-feather="menu"></i>
+    </button>
+
+    <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
+      <ul class="nav navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/de#home">Home</a>
+        </li>
+        
+          
+          
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/de#about">Über mich</a>
+                </li>
+              
+            
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/de#skills">Fähigkeiten</a>
+                </li>
+              
+            
+            
+              
+              
+            
+            
+              
+              
+            
+            
+              
+              
+            
+            
+              
+              
+            
+            
+              
+              
+            
+            
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mehr</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                
+                  
+                  
+                    
+                    
+                  
+                  
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/de#experiences">Berufserfahrung</a>
+                    
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/de#education">Bildung</a>
+                    
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/de#accomplishments">Kurse und Zertifikate</a>
+                    
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/de#projects">Projekte</a>
+                    
+                  
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/de#achievements">Errungenschaften</a>
+                    
+                  
+              </div>
+            </li>
+          
+        
+        
+          <div id="top-navbar-divider"></div>
+        
+        
+          <li class="nav-item">
+            <a class="nav-link" id="blog-link" href="/de/posts">Beiträge</a>
+          </li>
+        
+        
+        
+            
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.artiomkovnatsky.com/de/posts/philosophy/">Φ</a>
+              </li>
+            
+        
+        
+          
+
+  
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+            
+            <span class="flag-icon flag-icon-de"></span>
+        
+        Deutsch
+    </a>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+        
+        <a class="dropdown-item nav-link languages-item" href="/ru/posts/beyond_obvious/ai_dialogue_6">
+            
+                
+                <span class="flag-icon flag-icon-ru"></span>
+            
+            Русский
+        </a>
+        
+        <a class="dropdown-item nav-link languages-item" href="/de/posts/beyond_obvious/ai_dialogue_6">
+            
+                
+                <span class="flag-icon flag-icon-de"></span>
+            
+            Deutsch
+        </a>
+        
+        <a class="dropdown-item nav-link languages-item" href="/posts/beyond_obvious/ai_dialogue_6">
+            
+                
+                <span class="flag-icon flag-icon-gb"></span>
+            
+            English
+        </a>
+        
+    </div>
+    </li>
+
+        
+        
+          <li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
+  data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+</a>
+<div id="themeMenu" class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  <a class="dropdown-item nav-link" href="#" data-scheme="light">
+    <img class="theme-icon" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
+  </a>
+  <a class="dropdown-item nav-link" href="#" data-scheme="dark">
+    <img class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+  </a>
+  <a class="dropdown-item nav-link" href="#" data-scheme="system">
+    <img class="theme-icon" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
+  </a>
+</div>
+</li>
+
+        
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/site/logo_opa_hu627c5377cc4bc83d0d862c6fcdeaa915_453841_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/site/logo_opa_hu627c5377cc4bc83d0d862c6fcdeaa915_453841_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/de/search">
+          <input type="text" name="keyword" value="" placeholder="Suche" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/de/posts/" data-filter="all">Beiträge</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/de/posts/philosophy/" title="Philosophie">Philosophie</a></li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li>
+      <i data-feather="minus-circle"></i><a class="active list-link" href="/de/posts/beyond_obvious/"> Jenseits des Gewöhnlichen</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/de/posts/beyond_obvious/ai_dialogue_0/" title="#0 ИИ-Диалог: Разговор на острые темы (ценности, политика, этика)">#0 ИИ-Диалог: Разговор на острые темы (ценности, политика, этика)</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/de/posts/beyond_obvious/ai_dialogue_1/" title="#1 Das fortschrittlichste (Business-)Marketing">#1 Das fortschrittlichste (Business-)Marketing</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/de/posts/beyond_obvious/ai_dialogue_2/" title="#2 Moderne Wirtschaft und Gerechtigkeit">#2 Moderne Wirtschaft und Gerechtigkeit</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/de/posts/beyond_obvious/ai_dialogue_3/" title="#3 Kolonialismus neu denken">#3 Kolonialismus neu denken</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/de/posts/beyond_obvious/ai_dialogue_4/" title="#4 Russland–Ukraine">#4 Russland–Ukraine</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/de/posts/beyond_obvious/ai_dialogue_5/" title="#5 Interessante Fakten über Russland">#5 Interessante Fakten über Russland</a></li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li><a class="active list-link" href="/de/posts/beyond_obvious/ai_dialogue_6/" title="#6 Verschwörungstheorien und Mathematik">#6 Verschwörungstheorien und Mathematik</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/de/posts/beyond_obvious/ai_dialogue_7/" title="#7 &#34;Die letzten Indianer&#34;- UdSSR">#7 &#34;Die letzten Indianer&#34;- UdSSR</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i data-feather="plus-circle"></i><a class=" list-link" href=""> omega-posts</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/de/posts/omega/story/" title="Ω. Resümee und die Reise „Bewusster Wahnsinn“">Ω. Resümee und die Reise „Bewusster Wahnsinn“</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/de/posts/omega/meta-bio/" title="Metaphorische Autobiografie oder die Bunkergeschichten des Professors">Metaphorische Autobiografie oder die Bunkergeschichten des Professors</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/de/posts/omega/lodka/" title="Das Boot, Kandinsky 7.0 und ChatGPT 42.0 oder Werte- und Sinn-Reisen">Das Boot, Kandinsky 7.0 und ChatGPT 42.0 oder Werte- und Sinn-Reisen</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/de/posts/omega/opa/" title="Bild der Zukunft oder Andrejs Reise mit Baba Jagas Zauberknäuel">Bild der Zukunft oder Andrejs Reise mit Baba Jagas Zauberknäuel</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/de/posts/omega/omega-video/" title="Видео презентации">Видео презентации</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/posts/beyond_obvious/ai_dialogue_6/hero_1.png);'>
+      </div>
+
+      
+      <div class="page-content">
+        
+        <div class="author-profile ms-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/master_splinter_icon_crop_hua2707aa2f78fde416f7f6ccf13eacfed_489599_120x120_fit_box_3.png' alt="Author Image">
+          <h5 class="author-name">Artiom Kovnatsky</h5>
+          <p class="text-muted">Sonntag, 18. Mai 2025 | 9 minutes</p>
+        </div>
+        
+        
+        <div class="title">
+          <h1>#6 Verschwörungstheorien und Mathematik</h1>
+        </div>
+
+        
+
+        
+          <div class="tags">
+  <ul style="padding-left: 0;">
+    
+    
+    <li class="rounded"><a href="/de/tags/opa/" class="btn btn-sm btn-info">Opa</a></li>
+    
+    
+    <li class="rounded"><a href="/de/tags/beyondobvious/" class="btn btn-sm btn-info">BeyondObvious</a></li>
+    
+    
+    <li class="rounded"><a href="/de/tags/ai-dialogue/" class="btn btn-sm btn-info">AI-dialogue</a></li>
+    
+  </ul>
+</div>
+
+        
+        <div class="post-content" id="post-content">
+          <h1 id="wip--in-bearbeitung">[WIP] | [In Bearbeitung]</h1>
+<div class="comment-block">
+    <p>
+        <span class="curly-brace">{</span>
+        <b>🛡️ Wie man sich gegen den Vorwurf der <b>Verbreitung</b> von „Verschwörungstheorien/Conspiracy“ und „Desinformation“ schützt</b>: Anhand zweier gängiger „Verschwörungs“-Themen zeige ich, wie man mathematische Modelle aufbaut und so Vorwürfe <b>neutralisiert</b>, indem man alles in die <b>Sachebene verschiebt: „Hier ist mein mathematisches Modell; wie jedes Modell beruht es auf Annahmen — was genau stimmt hier nicht? Wie würdest du es verbessern? Welche Annahmen würdest du ändern und/oder justieren? usw.“</b> Darum geht’s hier.
+        <span class="curly-brace">}</span>
+    </p>
+</div>
+<div class="post-audio-player">
+    <div class="audio-header">
+        <span class="audio-icon">🔊</span>
+        <span class="audio-title">Artikel anhören</span>
+    </div>
+    <audio controls class="audio-element">
+        <source src="/posts/beyond_obvious/ai_dialogue_1/audio.mp3" type="audio/mpeg">
+        Ihr Browser unterstützt das Audioelement nicht.
+    </audio>
+    <div class="audio-meta">
+        <span class="audio-duration">Dauer: 30:30</span>
+        <span class="audio-download"><a href="/posts/beyond_obvious/ai_dialogue_1/audio.mp3" download style="color:var(--audio-player-link-color); text-decoration:none;">Audio herunterladen</a></span>
+    </div>
+</div>
+<hr>
+<h4 id="gemini-25-flashpro">Gemini 2.5 Flash/Pro</h4>
+<p><a href="https://g.co/gemini/share/17549817467d" target="_blank" rel="noopener">Link 1</a></p>
+<!-- https://g.co/gemini/share/df936f6329ed -->
+<div class="prompt-block">
+    <p class="block-title">
+        <span class="icon">💬</span> Frage:
+    </p>
+    <div class="block-content">
+        <p><b>Zu den „Ausschaltungen“ — erzähle bitte mehr zu Fällen rund um:</b></p>
+        <ol>
+            <li>
+                <p>Boeing, das Unternehmen (Mitarbeiter, Gerichte, Zeugen usw.) — inwiefern ist das für das Unternehmen und den Staat/die CIA vorteilhaft?</p>
+            </li>
+            <li>
+                <p>Die Familie Clinton und die damit verbundenen seltsamen Todesfälle? Lässt sich statistisch prüfen, wie „zufällig“ so viele Todesfälle „im Umfeld“ sind, verglichen mit dem Durchschnitt? Z. B. t-Verteilung und p-Wert (oder eine andere passende Verteilung)?</p>
+            </li>
+        </ol>
+    </div>
+</div>
+<div class="ai-response-block">
+    <p class="block-title">
+        <span class="icon">🤖</span> KI-Antwort:
+    </p>
+    <div class="block-content">
+        <p>Sie sprechen zwei sehr bekannte, in konspirativen Kreisen oft diskutierte Themen an. Wichtig ist ein kritischer Ansatz, der belegte Fakten, offizielle Versionen und Verschwörungstheorien unterscheidet.</p>
+<h3>1. Boeing, das Unternehmen: Fälle mit Mitarbeitenden, Gerichten, Zeugen usw.</h3>
+<p>In den letzten Jahren stand Boeing wegen Qualitäts- und Sicherheitsfragen stark unter Druck, mit mehreren Katastrophen und Zwischenfällen. In diesem Kontext gab es prominente Fälle von Whistleblowern – (ehemaligen) Mitarbeitenden, die interne Missstände meldeten.</p>
+<h4>Schlüsselfälle und Kontext:</h4>
+<ul>
+    <li><b>John Barnett:</b>
+        <ul>
+            <li>Wer: Ehemaliger Qualitätsmanager bei Boeing, 32 Jahre im Unternehmen.</li>
+            <li>Was er behauptete: Seit 2010 am Standort North Charleston (787 Dreamliner). Er sagte, Boeing habe die Produktion überhastet und Qualitätsstandards gesenkt; u. a. seien minderwertige Teile verbaut worden und Sauerstoffsysteme beim 787 potenziell fehlerhaft.</li>
+            <li>Tod: Am 9. März 2024 wurde Barnett in Charleston (South Carolina) tot in seinem Truck aufgefunden. Die Polizei sprach von einer „selbst zugefügten Schussverletzung“ (Suizid).</li>
+            <li>Kontext: Der Tod fiel in seine Aussagephase in einem Zivilverfahren, in dem er Boeing wegen Repressalien verklagte. Ein weiterer Verhandlungstag stand an.</li>
+            <li>Reaktion: Die Umstände führten zu großem Aufsehen und Spekulationen über eine mögliche „Ausschaltung“. Die Familie reichte eine Klage wegen widerrechtlichen Todes ein und macht Boeing für die psychische Belastung verantwortlich.</li>
+        </ul>
+    </li>
+    <li><b>Joshua Dean:</b>
+        <ul>
+            <li>Wer: Ehemaliger Qualitätsauditor bei Spirit AeroSystems, einem wichtigen Boeing-Zulieferer (Rümpfe für 737 Max).</li>
+            <li>Was er behauptete: „Eklatante Fertigungsfehler“ bei Spirit, u. a. falsch gebohrte Löcher in Rümpfen. 2023 entlassen.</li>
+            <li>Tod: Dean starb am 1. Mai 2024 im Alter von 45 Jahren an einer schnell fortschreitenden MRSA-Infektion mit schwerer Pneumonie und Organversagen.</li>
+            <li>Kontext: Der Tod kam nur zwei Monate nach Barnetts Tod – was die Vermutungen verstärkte.</li>
+            <li>Reaktion: Obwohl medizinische Ursache, weckte die Geschwindigkeit und sein Whistleblower-Status viele Fragen und Spekulationen.</li>
+        </ul>
+    </li>
+</ul>
+<h4>Warum könnte das dem Unternehmen bzw. „Staat/CIA“ nützen?</h4>
+<ul>
+    <li><b>Für Boeing:</b>
+        <ul>
+            <li>Zeugen ausschalten: Potenziell schwächt das zentrale Aussagen in Verfahren/Ermittlungen. Solche Aussagen könnten Milliardenkosten (Klagen, Strafen, Reputationsschäden) bedeuten.</li>
+            <li>Abschreckung: Ein starkes Signal an andere potenzielle Whistleblower – mit möglichem „chilling effect“.</li>
+            <li>Informationskontrolle: Missstände unter der Decke halten, teure Korrekturen/Regulierungsinterventionen hinauszögern.</li>
+        </ul>
+    </li>
+    <li><b>Für Staat/CIA (allgemeiner Kontext):</b>
+        <ul>
+            <li>Nationale Interessen: Boeing ist ein Schlüsselakteur der US-Luft- und Raumfahrt & großer Rüstungsauftragnehmer. Tiefe Probleme könnten als Risiko für Sicherheit und Wirtschaft gesehen werden.</li>
+            <li>Dämpfung von Kritik: Teile des „Staates“ (nicht zwingend die CIA) könnten ein Interesse haben, schädliche Information über strategisch wichtige Konzerne zu begrenzen.</li>
+            <li>Bezug zur CIA: Direkte Belege für eine Rolle der CIA in diesen Fällen gibt es nicht. In Verschwörungserzählungen wird die CIA oft als Werkzeug des „Deep State“ genannt. Theoretisch könnten Dienste eingreifen, wenn echte Sicherheitsinteressen bedroht wären — das bleibt spekulativ.</li>
+        </ul>
+    </li>
+</ul>
+<p>Wichtig: Die offiziellen Versionen (Barnett – Suizid; Dean – bakterielle Infektion) deuten nicht auf ein Verbrechen hin. Die ungewöhnliche Koinzidenz nährt dennoch Zweifel.</p>
+<h3>2. Die Familie Clinton und „mysteriöse Todesfälle“</h3>
+<p>Die Theorie vom „Clinton body count“ kursiert seit Jahrzehnten und behauptet, Bill/Hillary Clinton (oder Verbündete) seien für den Tod Dutzender Menschen verantwortlich, die Gegner, Zeugen oder „Belastungsmaterial“ hatten.</p>
+<h4>Oft genannte Beispiele (ohne Wahrheitsbehauptung):</h4>
+<ul>
+    <li><b>Vince Foster:</b> Stellv. Rechtsberater des Weißen Hauses unter Bill Clinton; 1993 offiziell Suizid. Viele Theorien unterstellen Mord. Mehrere Ermittlungen (FBI, unabhängige Ankläger) bestätigten Suizid.</li>
+    <li><b>James McDougal:</b> Partner der Clintons bei Whitewater; 1998 im Gefängnis an Herzinfarkt gestorben. Verschwörungstheorien sehen Zusammenhang wegen seiner Kooperation mit Ermittlern.</li>
+    <li><b>Mary Mahoney:</b> Ehem. Praktikantin im Weißen Haus; 1997 bei einem Raubüberfall in einem Starbucks getötet. Konspirative Deutungen verbinden sie mit Enthüllungen über sexuelle Belästigungen.</li>
+    <li><b>John F. Kennedy Jr.:</b> 1999 Flugzeugabsturz; offiziell Pilotenfehler. Theorien behaupten, sein Tod sei „praktisch“ für Hillary Clintons geplante Senatskandidatur gewesen.</li>
+</ul>
+<h4>Ist eine statistische Analyse möglich?</h4>
+<p>Theoretisch ja, praktisch aber methodisch extrem heikel, sodass Ergebnisse schwach belastbar wären.</p>
+<h4>Probleme einer „Clinton-Liste“-Statistik:</h4>
+<ul>
+    <li><b>Unklare Grundgesamtheit:</b> Wer gilt als „mit den Clintons verbunden“? Von Dutzenden bis Hunderttausenden möglich. Ohne klare Abgrenzung ist „normale“ Mortalität unbestimmbar.</li>
+    <li><b>Heterogene Todesursachen:</b> Suizid, Unfall, Krankheit, Mord — sehr unterschiedliche Basisraten.</li>
+    <li><b>Alter/Gesundheit:</b> Viele Akteure sind älter — natürliche Sterblichkeit steigt.</li>
+    <li><b>Gesetz der großen Zahlen:</b> Je größer das Netzwerk, desto mehr Todesfälle rein zufällig.</li>
+    <li><b>Rückblicksbias & Bestätigungsfehler:</b> Liste wird ex post aus „auffälligen“ Fällen gebaut.</li>
+    <li><b>Fehlende Basiswahrscheinlichkeit:</b> Was ist „üblich“ für Ex-Präsidenten-Umfelder? Vergleichsgruppen fehlen oder sind nicht vergleichbar.</li>
+</ul>
+<h4>Mögliche Methoden (mit geeigneten Daten):</h4>
+<ul>
+    <li><b>Poisson-Verteilung:</b> Für seltene Ereignisse (Todesfälle) in fester Population/Zeitraum; beobachtet vs. erwartet.</li>
+    <li><b>Z-/t-Tests:</b> Bei großen, vergleichbaren Stichproben Mittelwerte/Anteile vergleichen.</li>
+    <li><b>Regression:</b> Kovariaten (Alter, Gesundheit, Beruf etc.) berücksichtigen.</li>
+</ul>
+<h4>Fazit:</h4>
+<p>Offizielle/independenter Ermittlungen fanden keine Belege, dass die „Clinton-Liste“ kriminell verursacht ist. Viele Todesfälle sind natürlich oder erklärt; konspirative Behauptungen beruhen oft auf Spekulation und Fehlinterpretation.</p>
+    </div>
+</div>
+<div class="prompt-block">
+    <p class="block-title">
+        <span class="icon">💬</span> Frage:
+    </p>
+    <div class="block-content">
+        <p>Kann man auch statistisch prüfen — „wie wahrscheinlich ist es, dass das Zusammentreffen zweier Todesfälle zu diesem Zeitpunkt zufällig ist“? Vielleicht einen Test mit p-Wert, ausgehend von mittlerer Suizidwahrscheinlichkeit mal Erkrankung …?</p>
+    </div>
+</div>
+<div class="ai-response-block">
+    <p class="block-title">
+        <span class="icon">🤖</span> KI-Antwort:
+    </p>
+    <div class="block-content">
+        <p>Gute Frage. Für John Barnett und Joshua Dean wäre ein solcher Test grundsätzlich möglich — aber mit vielen Annahmen, die die Interpretation bestimmen.</p>
+<h3>1. Ist Statistik hier anwendbar?</h3>
+<p>Ja, als Heuristik. Ziel: Abwägen, wie „ungewöhnlich“ das Zusammentreffen ist, verglichen mit erwarteten Raten.</p>
+<h4>Skizze (hypothetisch, vereinfacht):</h4>
+<p><b>Definition des „Ereignisses“:</b></p>
+<ul>
+    <li>Fall 1 (Barnett): Tod (mutmaßlicher Suizid) eines prominenten Whistleblowers in laufender Klage, 62 Jahre.</li>
+    <li>Fall 2 (Dean): Tod (rasch verlaufende Infektion) eines anderen Whistleblowers (Zulieferer), 45 Jahre, bald nach Fall 1.</li>
+    <li><b>Verknüpfung:</b> Beide gegen Boeing/Spirit; beide sterben innerhalb &lt; 2 Monaten.</li>
+</ul>
+<p><b>Basiswahrscheinlichkeiten sammeln:</b></p>
+<ul>
+    <li>Suizidrate Männer 60–64 (USA, CDC-Größenordnung: ~25–30/100 000/Jahr).</li>
+    <li>Sterberisiko durch aggressive bakterielle Infektion Männer 40–49: sehr selten, abhängig von Kontext.</li>
+    <li>Whistleblower-Status etc. — schwer zu quantifizieren.</li>
+</ul>
+<p><b>Nullhypothese (H0):</b> Unabhängige, zufällige Ereignisse; zeitliche Nähe ist Zufall.</p>
+<p><b>p-Wert (grobe Idee):</b> Ungefähr das Produkt der (zeitlich skalierten) Einzelwahrscheinlichkeiten — mit allen Vorbehalten bzgl. Abhängigkeiten/Stress.</p>
+<h4>Grenzen:</h4>
+<ul>
+    <li><b>Kleine Zahlen:</b> Zwei Fälle → breite Unsicherheit.</li>
+    <li><b>Selektionsbias:</b> Spezifische, prominente Fälle.</li>
+    <li><b>Wenn es kein Zufall ist:</b> Statistik zeigt nur „Ungewöhnlichkeit“, nicht Ursache.</li>
+</ul>
+<p>Fazit: Ein sehr kleiner p-Wert wäre ein „rotes Flag“, kein Beweis.</p>
+    </div>
+</div>
+<div class="prompt-block">
+    <p class="block-title">
+        <span class="icon">💬</span> Frage:
+    </p>
+    <div class="block-content">
+        <p>Kann man als Kontrollgruppe einfach ein „normales“ Männerpaar nehmen?</p>
+    </div>
+</div>
+<div class="ai-response-block">
+    <p class="block-title">
+        <span class="icon">🤖</span> KI-Antwort:
+    </p>
+    <div class="block-content">
+        <p>Ein „beliebiges Männerpaar“ ist als Kontrolle <b>nicht geeignet</b>, weil es die besonderen Risiken/Umstände (Whistleblower, Verfahren, öffentlicher Druck) nicht abbildet.</p>
+<hr>
+<h3>Fehlender spezifischer Kontext</h3>
+<ul>
+    <li><b>Whistleblower-Status</b> ist selten und hochstressig; „normale“ Paare sind damit nicht vergleichbar.</li>
+    <li><b>Direkter Unternehmensbezug</b> (Boeing/Spirit) und <b>Öffentlichkeit</b> verzerren die Vergleichbarkeit.</li>
+</ul>
+<hr>
+<h3>Andere Risikofaktoren</h3>
+<ul>
+    <li><b>Psychischer Stress</b> erhöht Suizidrisiko deutlich.</li>
+    <li><b>Potenzielle Gefährdung</b> durch heikle Informationen ist kontextspezifisch.</li>
+</ul>
+<hr>
+<h3>Niedrige Basisraten</h3>
+<p>Seltene Ereignisse wirken vs. „Durchschnittsbevölkerung“ automatisch extrem — scheinbar signifikant, aber irreführend.</p>
+<hr>
+<h3>Bessere (wenn auch schwierige) Ansätze</h3>
+<ul>
+    <li><b>Ideale Kontrolle:</b> Andere vergleichbare Whistleblower-Kohorten.</li>
+    <li><b>Praktischer:</b> Modellierung mit Kovariaten; trotzdem geringe Power bei n=2.</li>
+</ul>
+<hr>
+<pre><code>&lt;/div&gt;
+</code></pre>
+</div>
+<div class="prompt-block">
+    <p class="block-title">
+        <span class="icon">💬</span> Frage:
+    </p>
+    <div class="block-content">
+        <p>Kannst du trotzdem grob einen p-Wert für „zwei Todesfälle in kurzer Folge“ abschätzen — Suizidwahrscheinlichkeit × Erkrankung …?</p>
+    </div>
+</div>
+<div class="ai-response-block">
+    <p class="block-title">
+        <span class="icon">🤖</span> KI-Antwort:
+    </p>
+    <div class="block-content">
+        <p>Als Rechenbeispiel — mit klaren, vereinfachenden Annahmen:</p>
+<h3>Vereinfachter Ansatz (Barnett & Dean)</h3>
+<h4>Annahmen:</h4>
+<ul>
+    <li>Fenster: 2 Monate (~1/6 Jahr).</li>
+    <li>Suizid Männer 60–64/Jahr ~0,00028; Stressfaktor 3 → 0,00084/Jahr → &lt; 2 Mon. ≈ 0,00014.</li>
+    <li>Seltene Infektion Männer 40–49/Jahr ~0,000005 → &lt; 2 Mon. ≈ 0,000000833.</li>
+</ul>
+<p><b>Für ein beliebiges Paar in einem Pool (z. B. 300 Aktive):</b> p ≈ 2 × (0,00014 × 0,000000833) × 44 850 ≈ 1,0×10⁻⁵ (~1/95 600). Sehr klein, aber annahmesensitiv.</p>
+<p><b>Interpretation:</b> Ungewöhnlich unter H0, aber kein Kausalbeweis.</p>
+    </div>
+</div>
+<div class="prompt-block">
+    <p class="block-title">
+        <span class="icon">💬</span> Frage:
+    </p>
+    <div class="block-content">
+        <p>Nimm statt 300 Paaren einfach genau diese zwei Männer und korrigiere für Stress (z. B. 10× beim Suizid).</p>
+    </div>
+</div>
+<div class="ai-response-block">
+    <p class="block-title">
+        <span class="icon">🤖</span> KI-Antwort:
+    </p>
+    <div class="block-content">
+        <p>Fokus auf genau dieses Duo (unabhängig angenommen):</p>
+<h3>Zwei konkrete Männer unter Stress</h3>
+<ul>
+    <li><b>Barnett (62):</b> 0,00028 × 10 = 0,0028/Jahr → &lt; 2 Mon. P1 ≈ 0,000467.</li>
+    <li><b>Dean (45):</b> 0,000005 × 10 = 0,00005/Jahr → &lt; 2 Mon. P2 ≈ 0,00000833.</li>
+</ul>
+<p><b>p = P1 × P2 ≈ 3,89×10⁻⁹</b> (~1 zu 250 Mio.).</p>
+<p><b>Hinweis:</b> Extrem klein, aber vollständig von den (groben) Annahmen abhängig. Ungewöhnlich ≠ Beweis.</p>
+<hr>
+<h3>Sehr grober Blick auf die „Clinton-Liste“</h3>
+<ul>
+    <li>„Innerer Kreis“ 1000 Personen über 30 Jahre.</li>
+    <li>„Unerwartete“ Todesfälle (Suizid/Unfall/Mord/ungewöhnliche Krankheit &lt; 70 J.): 1/10 000/Jahr.</li>
+    <li>Erwartet λ = 1000 × 0,0001 × 30 = 3; beobachtet k ≈ 40 → P(X ≥ 40 | λ = 3) ≈ 0 (Poisson).</li>
+</ul>
+<p><b>Aber:</b> Liste ist vorselektiert, Grundgesamtheit unklar, Definitionen subjektiv — statistisch fragil, kein Beweis.</p>
+    </div>
+</div>
+<div class="prompt-block">
+    <p class="block-title">
+        <span class="icon">💬</span> Frage:
+    </p>
+    <div class="block-content">
+        <p>Erkläre <b>einem Laien</b>, was der obige Analyseansatz bedeutet, was ein p-Wert ist (besonders in den beiden Fällen oben); zeig, wie man solche Tests „für andere Hypothesen“ aufsetzt — gern an einem populären Beispiel aus der „Conspiracy“-Welt.</p>
+    </div>
+</div>
+<div class="ai-response-block">
+    <p class="block-title">
+        <span class="icon">🤖</span> KI-Antwort:
+    </p>
+    <div class="block-content">
+        <p>Kurzer Leitfaden ohne Matheballast:</p>
+<h3>Was ist der p-Wert, einfach erklärt?</h3>
+<p>Er sagt, <b>wie ungewöhnlich</b> eine Beobachtung wäre, <b>wenn</b> eigentlich „alles normal“ ist (Nullhypothese). Kleiner p-Wert ⇒ „ungewöhnlich unter Zufall“.</p>
+<ul>
+    <li><b>Klein</b> (z. B. &lt; 0,05): Unwahrscheinlich unter Zufall → genauer hinschauen.</li>
+    <li><b>Groß</b>: Gut vereinbar mit Zufall.</li>
+</ul>
+<p><b>Auf unsere Fälle bezogen:</b> Sehr kleine p-Werte deuten auf Ungewöhnlichkeit hin — aber <b>beweisen nichts</b>.</p>
+<hr>
+<h3>Barnett & Dean — laienverständlich</h3>
+<ul>
+    <li>Wir nehmen <b>übliche Raten</b> (Suizid, seltene Infektion) für ihr Alter.</li>
+    <li>Wir berücksichtigen <b>Stress</b> (Faktor x10 als Annahme).</li>
+    <li>Wir fragen: Wie wahrscheinlich, dass <b>beide</b> in &lt; 2 Monaten so sterben, <b>wenn</b> es Zufall wäre?</li>
+</ul>
+<p>Ergebnis: winziger p-Wert ⇒ sehr ungewöhnlich — aber kein Kausalbeweis.</p>
+<hr>
+<h3>„Clinton-Liste“ — laienverständlich</h3>
+<ul>
+    <li>Vergleich: erwartete vs. beobachtete „unerwartete“ Todesfälle im großen Umfeld über Jahrzehnte.</li>
+    <li>Sehr kleiner p-Wert ⇒ auffälliger Cluster — aber Liste/Grundgesamtheit/Definitionen sind fragwürdig.</li>
+</ul>
+<hr>
+<h3>Wie selbst testen? Mini-Rezept (z. B. „UFO verschwindet vor Aufnahme“)</h3>
+<ol>
+    <li><b>Ereignis definieren:</b> „Sichtung, Kamera gezückt, Objekt verschwindet vorher.“</li>
+    <li><b>Nullhypothese festlegen:</b> „Kein UFO, normale Objekte verschwinden zufällig/ziehen weg.“</li>
+    <li><b>Daten zählen:</b> z. B. 1000 Versuche/Jahr, 950 „verschwunden“, 50 klare Videos.</li>
+    <li><b>Basisrate annehmen:</b> z. B. 80 % würden auch ohne UFO verschwinden.</li>
+    <li><b>Testen:</b> Prüfen, ob 950 signifikant &gt; erwartet (800) ist (Binomial/Normalapprox.).</li>
+    <li><b>Interpretation:</b> Kleiner p-Wert ⇒ ungewöhnlich; dennoch kein Beweis für UFOs — eher Anlass für bessere Daten/Hypothesen.</li>
+</ol>
+    </div>
+</div>
+<hr>
+<div class="conclusion-block">
+    <h3 class="block-header"><span class="icon">✅</span> Fazit</h3>
+    <hr>
+    <p class="block-text">
+        🛡️ Ergebnis unseres Dialogs: Wir können <b>Vorwürfe der „Verschwörungstheorie“</b> mit <b>mathematischen Werkzeugen</b> abfedern. So wird ein mächtiges Diskreditierungsinstrument (von Diensten, Medien, „Influencern“) <b>entkräftet</b>, indem wir die Debatte <b>auf die Sachebene</b> verlagern — weg von ad personam.
+    </p>
+    <p class="socrates-quote">
+        „Eine richtig gestellte Frage ist die halbe Antwort.“<br>
+        „Im Streit wird die Wahrheit geboren.“<br>
+        — Platon (Sokrates)
+    </p>
+</div>
+<hr>
+<div class="sources-block">
+    <h4 class="block-header">
+        <span class="icon">📚</span> Quellen
+    </h4>
+    <ul>
+        <li><span style="font-weight: bold;">Liste auf Anfrage</span></li>
+    </ul>
+</div>
+<p><a href="https://t.me/artiomkovnatsky" target="_blank" rel="noopener"><strong>Ω</strong></a></p>
+<p>💬 <strong>Austausch</strong> | <strong>Engage</strong>: <a href="https://t.me/artiomkovnatsky" target="_blank" rel="noopener">Ω (Omega) Telegram Chat | Community</a></p>
+<p>Sie können einen Termin über <a href="https://calendly.com/artiom_kovnatsky" target="_blank">Calendly</a> oder über <a href="https://cal.read.ai/artiom_kovnatsky" target="_blank">Read.ai</a> buchen, mir eine <a href="mailto:artiomkovnatsky@pm.me" target="_blank">E-Mail</a> schreiben oder auf <a href="https://t.me/soul_from_crete" target="_blank">Telegram</a> kontaktieren.</p>
+<iframe data-tally-src="https://tally.so/embed/nGa4LZ?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="308" frameborder="0" marginheight="0" marginwidth="0" title="Contact & Feedback form
+"></iframe>
+<script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+<br>
+<blockquote>
+„Wie alle bist du von Geburt an in Ketten. Von Geburt an in einem Gefängnis, das du weder riechst noch berührst. Ein Kerker für den Verstand.“
+</blockquote>
+<figure id="matrix">
+    <img src="/posts/omega/lodka/fig/matrix.jpeg" alt="Bild aus dem Film 'Matrix'" style="width:99%; display: block; margin: auto;">
+    <figcaption style="text-align: center;">(c) Morpheus aus dem Film „Matrix“, der wiederum Platon paraphrasiert</figcaption>
+</figure>
+
+        </div>
+
+        
+        <div class="row ps-3 pe-3">
+        
+          <div class="col-md-6 share-buttons">
+          
+            <strong>Share on:</strong>
+            
+            <a class="btn icon-button bg-facebook" href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fde%2fposts%2fbeyond_obvious%2fai_dialogue_6%2f" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+            
+            
+                <a class="btn icon-button bg-twitter" href="https://twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fde%2fposts%2fbeyond_obvious%2fai_dialogue_6%2f&text=%236%20Verschw%c3%b6rungstheorien%20und%20Mathematik&via=Artiom%20Kovnatsky%3a%20Portfolio%20%26%20Blog" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+            
+            
+            
+            
+            
+                <a class="btn icon-button bg-linkedin" href="https://www.linkedin.com/shareArticle?url=http%3a%2f%2flocalhost%3a1313%2fde%2fposts%2fbeyond_obvious%2fai_dialogue_6%2f&title=%236%20Verschw%c3%b6rungstheorien%20und%20Mathematik" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+            
+            
+             
+            
+                 <a class="btn icon-button bg-whatsapp" href="https://api.whatsapp.com/send?text=%236%20Verschw%c3%b6rungstheorien%20und%20Mathematik http%3a%2f%2flocalhost%3a1313%2fde%2fposts%2fbeyond_obvious%2fai_dialogue_6%2f" target="_blank">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+            
+            
+                <a class="btn icon-button" href="mailto:?subject=%236%20Verschw%c3%b6rungstheorien%20und%20Mathematik&body=http%3a%2f%2flocalhost%3a1313%2fde%2fposts%2fbeyond_obvious%2fai_dialogue_6%2f" target="_blank">
+                  <i class="fas fa-envelope-open-text"></i>
+                </a>
+            
+          
+          </div>
+
+        
+        
+          
+            
+          
+          <div class="col-md-6 btn-improve-page">
+             
+               <a href="https://github.com/skovnats/psite.io/edit/master/content/posts/beyond_obvious/ai_dialogue_6/index.de.md" title="Diese Seite verbessern" target="_blank" rel="noopener">
+            
+                <i class="fas fa-code-branch"></i>
+                Diese Seite verbessern
+              </a>
+          </div>
+        
+        </div>
+
+
+
+      
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+    
+    
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+    <div class="col-md-6 previous-article">
+      <a href="/de/posts/beyond_obvious/ai_dialogue_5/" title="#5 Interessante Fakten über Russland" class="btn filled-button">
+        <div><i class="fas fa-chevron-circle-left"></i> Vorherige</div>
+        <div class="next-prev-text">#5 Interessante Fakten über Russland</div>
+      </a>
+    </div>
+  
+  
+      
+      
+        
+      
+      <div class="col-md-6 next-article">
+        <a href="/de/posts/beyond_obvious/ai_dialogue_7/" title="#7 &#34;Die letzten Indianer&#34;- UdSSR" class="btn filled-button">
+          <div>Nächste <i class="fas fa-chevron-circle-right"></i></div>
+          <div class="next-prev-text">#7 &#34;Die letzten Indianer&#34;- UdSSR</div>
+        </a>
+      </div>
+    
+</div>
+
+      <hr />
+
+      
+      
+
+      
+      
+
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Scroll to top">
+    <i class="fas fa-chevron-circle-up"></i>
+  </a>
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-start">
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Kontaktiere mich:</h5>
+          <ul>
+            
+              
+                <li><a href=mailto:artiomkovnatsky@pm.me target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>artiomkovnatsky@pm.me</span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://www.linkedin.com/in/artiomkovnatsky target="_blank" rel="noopener">
+                  <span><i class="fab fa-linkedin"></i></span> <span>Artiom Kovnatsky</span>
+                </a></li>
+              
+            
+              
+                <li><span><i class="fas fa-phone-alt"></i></span> <span>&#43;4917 630162834</span></li>
+              
+            
+          </ul>
+        </div>
+        
+        
+        
+          
+          <div class="col-md-4 col-sm-12">
+            <p>Mit dem Newsletter auf dem neuesten Stand bleiben</p>
+              
+              <form
+                action="https://gmail.us22.list-manage.com/subscribe?u=8c324b08190d61d9c930e2670&amp;id=e71fde249e"
+                method="post"
+                id="mc-embedded-subscribe-form"
+                name="mc-embedded-subscribe-form"
+                class="validate"
+                target="_blank"
+                novalidate >
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="mce-EMAIL"
+                    name="EMAIL"
+                    aria-describedby="emailHelp"
+                    placeholder="E-Mail Adresse eingeben"
+                  />
+                  <small id="emailHelp" class="form-text text-muted"
+                    >Mit der Eingabe Ihrer E-Mail-Adresse erklären Sie sich damit einverstanden, den Newsletter dieser Website zu erhalten.</small
+                  >
+                </div>
+                <button type="submit" class="btn btn-info">Absenden</button>
+              </form>
+            
+          </div>
+        
+      </div>
+    </div>
+    
+    <hr />
+    <div class="container">
+      <p id="disclaimer"><strong>Haftungshinweis:</strong> <strong>Copyright &amp; License:</strong> © Artiom Kovnatsky | Licensed under <a href="https://github.com/skovnats/SVE-Systemic-Verification-Engineering/tree/master/License" target="_blank" rel="noopener">SVE PL v1.3</a> unless stated otherwise</p>
+    </div>
+    
+    
+  </footer>
+
+
+    <script src="/application.7b710f826242bf847f582e1513d9fdf0509bb8f3d49b1cf30dfa92e27ba29ee6.js" integrity="sha256-e3EPgmJCv4R/WC4VE9n98FCbuPPUmxzzDfqS4nuinuY=" defer></script>
+
+
+    
+     
+
+    
+    
+        
+        
+        
+            <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+            <script>
+            kofiWidgetOverlay.draw('artiomkovnatsky', {
+                'type': 'floating-chat',
+                'floating-chat.donateButton.text': 'donate',
+                'floating-chat.donateButton.text-color': '#f9fafc',
+                'floating-chat.donateButton.background-color': '#248aaa',
+            });
+            </script>
+        
+        
+        
+        
+    
+
+</body>
+</html>
